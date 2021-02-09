@@ -21,7 +21,7 @@ export default function AddTransaction() {
                 </div>
                 <div className='form-control'>
                     <label htmlFor='amout'>Amount (K)</label>
-                    <input type='number' value={amount} onChange={e => setAmount(e.target.value)} placeholder='Enter amount...' />
+                    <input type='text' value={amount} onChange={e => setAmount(e.target.value)} placeholder='Enter amount...' />
                 </div>
                 <button className='btn' type='submit'>Add transaction</button>
             </form>
